@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Ajay S — BBA Graduate | Finance, CRM & Data Analytics portfolio.">
+<title>Ajay S | Finance • CRM • Data Analytics</title>
+<style>
+:root{--navy:#09152d;--navy2:#10284e;--blue:#2563eb;--cyan:#06b6d4;--ink:#172033;--muted:#64748b;--bg:#f6f8fc;--card:#fff;--line:#e5e7eb;--soft:#eef4ff;--shadow:0 16px 42px rgba(15,23,42,.08)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}a{text-decoration:none;color:inherit}.container{max-width:1160px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:100;background:rgba(9,21,45,.95);backdrop-filter:blur(14px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:850;letter-spacing:.3px}.brand span{color:#67e8f9}.links{display:flex;gap:21px;align-items:center}.links a{font-size:13px;color:#dbeafe}.links a:hover{color:#67e8f9}.menu{display:none;background:none;border:0;color:#fff;font-size:26px}
+.hero{padding:88px 0 78px;background:radial-gradient(circle at 80% 10%,rgba(37,99,235,.27),transparent 34%),linear-gradient(135deg,#071126,#102b58 65%,#0b5364);color:#fff}.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;padding:7px 12px;border:1px solid rgba(255,255,255,.2);border-radius:999px;color:#bae6fd;background:rgba(255,255,255,.06);font-size:12px;margin-bottom:18px}.hero h1{font-size:clamp(44px,7vw,76px);line-height:1.02;letter-spacing:-2px;margin-bottom:12px}.hero h2{font-size:clamp(20px,3vw,29px);font-weight:500;color:#dbeafe;margin-bottom:17px}.hero p{max-width:690px;color:#dbeafe;font-size:16px}.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 16px;border-radius:10px;font-weight:750;font-size:13px;border:1px solid rgba(255,255,255,.2);transition:.2s;cursor:pointer}.btn.primary{background:#fff;color:#10233f}.btn.ghost{color:#fff;background:rgba(255,255,255,.06)}.btn.dark{background:#0b1730;color:#fff;border:0}.btn.blue{background:var(--blue);color:#fff;border:0}.btn:hover{transform:translateY(-2px)}.profile{width:250px;height:250px;object-fit:cover;border-radius:50%;border:7px solid rgba(255,255,255,.9);box-shadow:0 25px 70px rgba(0,0,0,.28);display:block;margin:auto}
+.open{margin-top:20px;color:#bae6fd;font-size:13px;display:flex;align-items:center;gap:8px}.dot{width:9px;height:9px;background:#22c55e;border-radius:50%;box-shadow:0 0 0 5px rgba(34,197,94,.12)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-27px;position:relative}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:19px;box-shadow:var(--shadow);text-align:center}.stat b{display:block;font-size:26px;color:var(--blue)}.stat span{font-size:11px;color:var(--muted)}
+section{padding:76px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}.kicker{color:var(--blue);font-weight:850;font-size:11px;text-transform:uppercase;letter-spacing:1.6px}.section-head h2{font-size:34px;letter-spacing:-.8px}.section-head p{max-width:570px;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:21px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:25px;box-shadow:var(--shadow)}.card h3{font-size:18px;margin-bottom:8px}.card p,.card li{color:#526075;font-size:13.5px}.card ul{padding-left:20px;margin-top:9px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.tag{font-size:11px;padding:6px 9px;background:var(--soft);color:#1d4ed8;border-radius:999px;border:1px solid #dbeafe}
+.capability{min-height:165px}.capability .icon{font-size:25px;margin-bottom:10px}.capability h3{margin-bottom:6px}.capability p{font-size:13px}
+.timeline{position:relative;border-left:2px solid #dbeafe;margin-left:10px;padding-left:28px}.timeline .item{margin-bottom:28px;position:relative}.timeline .item:before{content:"";position:absolute;left:-36px;top:6px;width:12px;height:12px;border-radius:50%;background:#2563eb;border:3px solid #dbeafe}.date{font-size:11px;color:#2563eb;font-weight:850;text-transform:uppercase}.item h3{margin:4px 0}.muted{color:var(--muted)}
+.project{display:flex;flex-direction:column;justify-content:space-between;min-height:265px}.project .top{display:flex;justify-content:space-between;gap:15px}.project-icon{font-size:29px}.project .btn{margin-top:18px}
+.achievement{text-align:center}.achievement .big{font-size:33px;margin-bottom:5px}.achievement b{font-size:15px}.achievement p{margin-top:7px}
+.certificate{display:grid;grid-template-columns:300px 1fr;gap:28px;align-items:center}.certificate img{width:100%;border-radius:12px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.quick{background:linear-gradient(135deg,#eef4ff,#f8fafc);border:1px solid #dbeafe;border-radius:18px;padding:25px;margin-top:22px}.quick strong{color:#1d4ed8}.resume-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.contact{background:#0b1730;color:#fff;border-radius:24px;padding:43px}.contact p{color:#cbd5e1}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contact-list{display:grid;gap:12px;margin-top:20px}.contact-list a{color:#bfdbfe}.contact-list a:hover{color:#67e8f9}
+.form{display:grid;gap:11px;margin-top:20px}.form input,.form textarea{width:100%;padding:12px 13px;border-radius:9px;border:1px solid rgba(255,255,255,.17);background:rgba(255,255,255,.07);color:#fff;outline:none}.form textarea{min-height:100px;resize:vertical}.form input::placeholder,.form textarea::placeholder{color:#94a3b8}
+footer{padding:30px 0;background:#071126;color:#94a3b8;text-align:center;font-size:12px}.back{position:fixed;right:20px;bottom:20px;width:46px;height:46px;border:0;border-radius:12px;background:#2563eb;color:#fff;display:none;cursor:pointer;box-shadow:var(--shadow);z-index:80}.back.show{display:block}
+@media(max-width:900px){.links{display:none;position:absolute;top:70px;left:0;right:0;background:#09152d;padding:15px 22px;flex-direction:column;align-items:flex-start}.menu{display:block}.hero-grid{grid-template-columns:1fr;text-align:center}.hero p{margin:auto}.actions{justify-content:center}.profile{width:195px;height:195px}.stats{grid-template-columns:repeat(2,1fr)}.grid,.grid3,.contact-grid,.certificate{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:8px}.contact{padding:30px}}
+@media(max-width:500px){.stats{grid-template-columns:1fr 1fr}.hero{padding-top:65px}.hero h1{font-size:46px}}
+
+/* ===== EXPERIENCE VISUAL BACKGROUND ===== */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:#071126}
+.hero::before,.hero::after{content:"";position:absolute;inset:-5%;z-index:-3;background-position:center;background-size:cover;background-repeat:no-repeat;opacity:0;animation:heroPhoto 16s ease-in-out infinite;transform:scale(1.04)}
+.hero::before{background-image:url("https://ramcocements.in/cms/uploads/RCL_Ramco_Cements_13b9974bb3.jpg")}
+.hero::after{background-image:url("https://images.pexels.com/photos/8297449/pexels-photo-8297449.jpeg?cs=srgb&dl=pexels-mikhail-nilov-8297449.jpg&fm=jpg");animation-delay:8s}
+.hero .container{position:relative;z-index:3}
+.hero .hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,15,35,.97) 0%,rgba(8,25,55,.84) 43%,rgba(7,36,60,.54) 100%);pointer-events:none}
+@keyframes heroPhoto{
+0%,43%{opacity:0;transform:scale(1.04)}
+8%,35%{opacity:.42}
+50%,93%{opacity:0;transform:scale(1.12)}
+}
+.hero::marker{display:none}
+.hero-particles{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.hero-particles i{position:absolute;width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.45);box-shadow:0 0 18px rgba(103,232,249,.55);animation:floatParticle 9s linear infinite}
+.hero-particles i:nth-child(1){left:8%;bottom:-10px;animation-delay:0s}.hero-particles i:nth-child(2){left:21%;bottom:-20px;animation-delay:2s}.hero-particles i:nth-child(3){left:39%;bottom:-15px;animation-delay:4s}.hero-particles i:nth-child(4){left:62%;bottom:-12px;animation-delay:1s}.hero-particles i:nth-child(5){left:78%;bottom:-15px;animation-delay:5s}.hero-particles i:nth-child(6){left:91%;bottom:-12px;animation-delay:3s}
+@keyframes floatParticle{0%{transform:translateY(0) scale(.5);opacity:0}15%{opacity:.7}80%{opacity:.35}100%{transform:translateY(-78vh) translateX(40px) scale(1.1);opacity:0}}
+.visual-strip{padding:20px 0 0;background:var(--bg)}
+.visual-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.visual-card{position:relative;height:240px;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#0b1730}.visual-card::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(3,7,18,.82),rgba(3,7,18,.06) 70%)}.visual-card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 8s ease}.visual-card:hover img{transform:scale(1.08)}.visual-label{position:absolute;left:20px;bottom:17px;z-index:2;color:#fff}.visual-label small{display:block;color:#bae6fd;text-transform:uppercase;letter-spacing:1.2px;font-size:10px;font-weight:800}.visual-label strong{font-size:21px}
+@media(max-width:900px){.visual-grid{grid-template-columns:1fr}.visual-card{height:210px}}
+@media(prefers-reduced-motion:reduce){.hero::before,.hero::after,.hero-particles i{animation:none}.hero::before{opacity:.25}.visual-card img{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="container nav"><a class="brand" href="#home">AJAY <span>S.</span></a><nav class="links"><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav><button class="menu" aria-label="Menu" onclick="document.querySelector('.links').style.display=document.querySelector('.links').style.display==='flex'?'none':'flex'">☰</button></div></header>
+
+<main id="home">
+<section class="hero">
+<div class="hero-shade"></div>
+<div class="hero-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="container hero-grid">
+<div><div class="eyebrow">BBA Graduate • Finance • CRM • Data Analytics</div><h1>Ajay S</h1><h2>Business-minded professional focused on finance, operations & data.</h2><p>Practical exposure across financial consulting, accounting, CRM operations and digital analytics, with hands-on project work across industrial operations and finance-focused research.</p>
+<div class="open"><span class="dot"></span> Open to relevant entry-level opportunities</div>
+<div class="actions"><a class="btn primary" href="documents/Ajay_S_Resume.pdf" download>Download Resume</a><a class="btn ghost" href="#projects">View Projects</a><a class="btn ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ajay-karthik-b23847278">LinkedIn ↗</a></div></div>
+<div><img class="profile" src="assets/profile.jpg" alt="Ajay S professional portrait"></div>
+</div></section>
+
+<div class="container stats"><div class="stat"><b>2026</b><span>BBA Graduation</span></div><div class="stat"><b>122</b><span>Research Respondents</span></div><div class="stat"><b>20+</b><span>Loan Applications Supported</span></div><div class="stat"><b>4 Weeks</b><span>Ramco Internship</span></div></div>
+
+<section class="visual-strip" aria-label="Professional experience visuals">
+<div class="container visual-grid">
+<a class="visual-card" href="#experience" aria-label="Ramco Cements internship visual">
+<img src="https://ramcocements.in/cms/uploads/RCL_Ramco_Cements_13b9974bb3.jpg" alt="Ramco Cements industrial plant">
+<div class="visual-label"><small>Industrial Exposure</small><strong>Ramco Cements Internship</strong></div>
+</a>
+<a class="visual-card" href="#capabilities" aria-label="Banking and finance visual">
+<img src="https://images.pexels.com/photos/8297449/pexels-photo-8297449.jpeg?cs=srgb&dl=pexels-mikhail-nilov-8297449.jpg&fm=jpg" alt="Finance professionals reviewing reports">
+<div class="visual-label"><small>Career Focus</small><strong>Banking & Finance Operations</strong></div>
+</a>
+</div>
+</section>
+
+<section id="about"><div class="container"><div class="section-head"><div><div class="kicker">Profile</div><h2>About Me</h2></div><p>Quick recruiter view of my education, practical exposure and professional direction.</p></div>
+<div class="grid"><div class="card"><h3>Professional Summary</h3><p>Motivated BBA graduate with practical exposure to loan processing, financial reporting, accounting, CRM operations and data analytics. Comfortable working with structured business data, documentation, client records and reporting tools.</p><div class="tags"><span class="tag">Finance Operations</span><span class="tag">CRM</span><span class="tag">Data Analytics</span><span class="tag">Business Administration</span></div></div>
+<div class="card"><h3>Education</h3><p><b>Bachelor of Business Administration (BBA)</b><br>V.H.N. Senthikumara Nadar College<br>May 2026 • CGPA 6.0</p><p style="margin-top:12px"><b>Higher Secondary — Commerce</b><br>KVS Hr Sec School • 85%</p></div></div>
+<div class="quick"><strong>Career focus:</strong> Finance Operations • Banking Operations • CRM • Business Administration • Data Analytics</div></div></section>
+
+<section id="capabilities"><div class="container"><div class="section-head"><div><div class="kicker">What I Can Do</div><h2>Core Capabilities</h2></div><p>Four areas that summarize the practical value I can bring to an entry-level business role.</p></div>
+<div class="grid3"><div class="card capability"><div class="icon">💰</div><h3>Finance & Banking</h3><p>Loan documentation, financial reporting, reconciliation, Tally ERP and Excel-based work.</p></div><div class="card capability"><div class="icon">📊</div><h3>Analytics</h3><p>Power BI, GA4, Looker Studio, Pivot Tables, VLOOKUP and research data analysis.</p></div><div class="card capability"><div class="icon">🤝</div><h3>CRM & Operations</h3><p>Zoho CRM/Books, client onboarding, record management and structured documentation.</p></div><div class="card capability"><div class="icon">📣</div><h3>Digital</h3><p>WordPress, Google Ads, Meta Ads, email marketing and SEO fundamentals.</p></div><div class="card capability"><div class="icon">🧩</div><h3>Business Skills</h3><p>Client communication, problem solving, analytical thinking, time management and adaptability.</p></div><div class="card capability"><div class="icon">🗂️</div><h3>Office Tools</h3><p>MS Office Suite and Google Workspace for documentation, reporting and collaboration.</p></div></div></div></section>
+
+<section id="experience"><div class="container"><div class="section-head"><div><div class="kicker">Experience</div><h2>Hands-on Exposure</h2></div><p>Experience and responsibilities are presented from the uploaded resume.</p></div>
+<div class="timeline"><div class="item"><div class="date">2026</div><h3>Financial Consultant Project — Grama Khajaana Business Consultancy Pvt Ltd</h3><p class="muted">Counselled clients on loans, insurance and mutual funds; maintained CRM records; supported business and agriculture loan applications; conducted a 122-respondent financial-credit awareness survey. The resume records support for 20+ client loan applications.</p></div>
+<div class="item"><div class="date">2025 • 4 Weeks</div><h3>Finance & Accounts Intern — Ramco Cements Pvt Ltd, RR Nagar</h3><p class="muted">Assisted with financial statements and transaction reports, Excel/Tally data entry and reconciliation, and a cost variance analysis mini-project.</p></div></div></div></section>
+
+<section id="projects"><div class="container"><div class="section-head"><div><div class="kicker">Proof of Work</div><h2>Projects</h2></div><p>Recruiters can open the full interactive work instead of reading only a short description.</p></div>
+<div class="grid"><div class="card project"><div><div class="project .top"></div><h3>🏭 Ramco Cements Internship Report</h3><p>Interactive report covering company profile, production process, departmental exposure, finance insights and internship takeaways.</p><div class="tags"><span class="tag">Finance & Accounts</span><span class="tag">Industrial Exposure</span><span class="tag">Cost Variance</span></div></div><a class="btn dark" target="_blank" href="documents/Ramco_Cements_Internship_Report.html">Open Interactive Report ↗</a></div>
+<div class="card project"><div><h3>📊 Financial Literacy Analytics Dashboard</h3><p>Interactive analytics case study on credit, insurance and mutual-fund awareness research with dashboard visualizations.</p><div class="tags"><span class="tag">Data Analytics</span><span class="tag">Dashboard</span><span class="tag">Research</span></div></div><a class="btn dark" target="_blank" href="documents/Financial_Literacy_Analytics_Dashboard.html">Open Analytics Dashboard ↗</a></div></div></div></section>
+
+<section id="achievements"><div class="container"><div class="section-head"><div><div class="kicker">Recognition</div><h2>Achievements</h2></div><p>Selected achievements from the uploaded resume.</p></div>
+<div class="grid3"><div class="card achievement"><div class="big">🏆</div><b>1st Place</b><p>Start-up Idea Presentation at MEPCO Schlenk Engineering College, 2025</p></div><div class="card achievement"><div class="big">📋</div><b>122 Respondents</b><p>Independent financial-credit and mutual-fund awareness research</p></div><div class="card achievement"><div class="big">🎤</div><b>Paper Presentation</b><p>Presented “Innovation in Technology” at an inter-college event</p></div><div class="card achievement"><div class="big">📜</div><b>75%</b><p>NPTEL Entrepreneurship Certification</p></div></div></div></section>
+
+<section id="certificates"><div class="container"><div class="section-head"><div><div class="kicker">Credentials</div><h2>Certificate & Downloads</h2></div><p>Evidence and recruiter downloads are kept together in one section.</p></div>
+<div class="card certificate"><img src="assets/ramco-internship-certificate.jpg" alt="Ramco Cements internship certificate"><div><h3>Ramco Cements Limited — Internship Certificate</h3><p>The supplied certificate states that Ajay S underwent an internship at the R.R. Nagar factory from 19/05/2025 to 14/06/2025.</p><div class="resume-actions"><a class="btn dark" target="_blank" href="assets/ramco-internship-certificate.jpg">View Certificate ↗</a><a class="btn blue" href="documents/Ajay_S_Portfolio_Summary.pdf" download>Download Portfolio PDF</a><a class="btn blue" href="documents/Ajay_S_Resume.pdf" download>Download Resume PDF</a></div></div></div></div></section>
+
+<section id="contact"><div class="container"><div class="contact"><div class="contact-grid"><div><div class="kicker" style="color:#67e8f9">Contact</div><h2 style="font-size:38px;margin:8px 0 12px">Let's connect.</h2><p>For recruitment, internships, finance operations, CRM, business administration or analytics opportunities.</p><div class="contact-list"><a href="tel:+916385539417">📞 +91 63855 39417</a><a href="mailto:ajayofficial0305@gmail.com">✉️ ajayofficial0305@gmail.com</a><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/ajay-karthik-b23847278">in LinkedIn Profile</a></div></div>
+<div><form class="form" onsubmit="sendMail(event)"><input id="name" required placeholder="Your name"><input id="email" type="email" required placeholder="Your email"><input id="company" placeholder="Company (optional)"><textarea id="message" required placeholder="Your message"></textarea><button class="btn primary" type="submit">Send Enquiry ↗</button></form><p style="font-size:11px;margin-top:9px;color:#94a3b8">The form opens your email app with the enquiry pre-filled.</p></div></div></div></div></section>
+</main>
+<footer><div class="container">© 2026 Ajay S • Professional Portfolio • Finance • CRM • Data Analytics</div></footer>
+<button class="back" id="back" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script>
+const back=document.getElementById('back');window.addEventListener('scroll',()=>back.classList.toggle('show',scrollY>500));
+function sendMail(e){e.preventDefault();const n=document.getElementById('name').value,e1=document.getElementById('email').value,c=document.getElementById('company').value,m=document.getElementById('message').value;const subject=encodeURIComponent('Portfolio enquiry from '+n);const body=encodeURIComponent('Name: '+n+'\\nEmail: '+e1+'\\nCompany: '+c+'\\n\\nMessage:\\n'+m);window.location.href='mailto:ajayofficial0305@gmail.com?subject='+subject+'&body='+body;}
+</script>
+</body>
+</html>
